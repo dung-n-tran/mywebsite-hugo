@@ -1,3 +1,23 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseurl = "https://dung-n-tran.github.io"
+title = "Black & Light"
+author = "David Hamp-Gonsalves"
+canonifyurls = true
+languagecode = "en"
+theme = "hugo-black-and-light-theme"
+
+pygmentsstyle       = "bw"
+pygmentscodefences  = true
+
+[params]
+  sitename = "Dung Tran"
+  disableWebFonts = false
+
+[[menu.main]]
+    name = "About"
+    url  = "about/"
+[[menu.main]]
+    name = "Publications"
+    url  = "https://github.com/dung-n-tran/dung-n-tran.github.io"
+[[menu.main]]
+    name = "Resume"
+    url  = "https://github.com/dung-n-tran/dung-n-tran.github.io"
